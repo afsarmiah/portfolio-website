@@ -155,7 +155,7 @@ main {
   );
 
   margin-block-end: 4.285em;
-  min-block-size: calc(100dvh - 9.142em);
+  min-block-size: calc(100dvh - 5.571em - 1.214em);
 
   border-radius: 0 0 2.857em 2.857em;
 }

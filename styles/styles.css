@@ -6,7 +6,7 @@
   --body-background-color: hsl(0, 0%, 96%);
 
   --font-main: 'Satoshi', 'Roboto';
-  --font-secondary: 'Consolas';
+  --font-secondary: 'Consolas', 'Fira Code';
 
   --body-font-size: 1.4rem;
 }
@@ -215,7 +215,7 @@ main {
   flex-direction: column;
   gap: 1.142em;
 
-  margin-block-end: 3.571em;
+  margin-block-end: 2.28em;
 }
 
 .project__container {
@@ -309,7 +309,7 @@ main {
   flex-direction: column;
   gap: 1.142em;
 
-  margin-block-end: 3.571em;
+  margin-block-end: 2.285em;
 }
 
 .skills__title {
@@ -440,6 +440,10 @@ form[name='contact'] {
   background: hsla(0, 0%, 0%, 0.04);
 }
 
+.textarea {
+  min-block-size: 9.5em;
+}
+
 .btn {
   font-size: 1.6rem;
   font-weight: 700;
@@ -460,6 +464,8 @@ form[name='contact'] {
   border-radius: 25.614em; /* 360px */
   background: var(--accent-color);
 }
+
+/* FOOTER SECTION */
 
 .footer {
   text-align: center;
